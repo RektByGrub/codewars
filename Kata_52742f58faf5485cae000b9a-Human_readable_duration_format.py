@@ -4,7 +4,7 @@ def format_duration(seconds):
     if seconds == 0:
         return "now"
 
-    ## Create empty counters
+    ## Create counters
     return_list = [
         ["year", seconds // 31536000],
         ["day", seconds % 31536000 // 86400],
